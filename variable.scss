@@ -1,0 +1,249 @@
+// Variables used for styling ...
+
+$h1-color: white;
+$paracolor: Black;
+$right-nav-bg-color: rgb(0, 0, 0);
+$left-bar-color: rgb(53, 80, 125);
+$nav-bg-color: rgb(255, 255, 255);
+$nav-height: 6rem;
+$logo-width: 108px;
+$logo-height: 70px;
+$link-font-size: 1.5rem;
+$btn-compliance: rgb(19, 187, 183);
+$btn-soft-skills: rgb(137, 138, 142);
+$text-label-border-color: rgb(102, 102, 102);
+$training-p-width: 300px;
+$training-p-height: 24px;
+$training-p-active-border-color: solid rgb(97, 97, 86);
+$training-p-active-color: rgb(154, 205, 50);
+
+$body-height: 100%;
+$body-bg-color: rgb(245, 247, 248);
+$body-minheight: 100%;
+$body-fontsize: 14px;
+$body-line-height: 18px;
+$body-width: 100%;
+
+$btnclosesidebar-top: 10px;
+$btnclosesidebar-right: 40px;
+$btnclosesidebar-font-size: 36px;
+$btnclosesidebar-margin-left: 50px;
+$btnclosesidebar-bgcolor: grey;
+$btnclosesidebar-width: 30px;
+$btnclosesidebar-height: 30px;
+
+$main-padding: 20px;
+$main-width: 100%;
+
+$text-label-left: 110px;
+$text-label-top: 7px;
+$text-label-opacity: 1;
+$text-label-border-radius: 4px;
+$text-label-border-width: 10px;
+$text-label-width: 29px;
+$text-label-height: 29px;
+
+$compliance-cources-margin-top: 50px;
+$compliance-cources-width: 90%;
+$compliance-cources-p-margin-top: 2rem;
+$compliance-cources-p-padding: 25px;
+
+$compliance-cources-assigned-margin-left: 2rem;
+$compliance-cources-assigned-opacity: 1;
+$compliance-cources-assigned-border-radius: 4px;
+$compliance-cources-assigned-border-width: 0px;
+$compliance-cources-assigned-border-color: rgb(102, 102, 102);
+$compliance-cources-assigned-width: 150px;
+$compliance-cources-assigned-height: 38px;
+
+$compliance-cources-assigned-small-width: 100%;
+$compliance-cources-assigned-small-optional-width: 100%;
+$compliance-small-width: 100%;
+$soft-skills-small-width: 100%;
+$flex-container-small-width: 100%;
+
+$compliance-cources-optional-opacity: 1;
+$compliance-cources-optional-bg-color: rgb(137, 138, 142);
+$compliance-cources-optional-border-radius: 4px;
+$compliance-cources-optional-border-width: 0px;
+$compliance-cources-optional-border-color: rgb(102, 102, 102);
+$compliance-cources-optional-padding: 10px;
+$compliance-cources-optional-width: 150px;
+$compliance-cources-optional-height: 38px;
+
+$text-item-margin-left: 2rem;
+$text-item-opacity: 1;
+$text-item-bgcolor: rgb(240, 63, 66);
+$text-item-border-radius: 4px 4px 0px 0px;
+$text-item-border-width: 0px;
+$text-item-border-color: rgb(102, 102, 102);
+$text-item-padding: 10px;
+$text-item-width: 177px;
+$text-item-height: 32px;
+$text-item-color: rgb(255, 255, 255);
+
+$first-item-margin-bottom: 10px;
+$first-item-opacity: 1;
+$first-item-bgcolor: rgb(255, 255, 255);
+$first-item-border-radius: 6px;
+$first-item-border-width: 0px;
+$first-item-border-color: rgb(102, 102, 102);
+$first-item-padding: 0px;
+$first-item-width: 243px;
+$first-item-height: 331px;
+$first-item-hover-border-width: 0px;
+
+$compliance-labels-height: 50px;
+$compliance-labels-margin-left: 1rem;
+$compliance-labels-font-size: 1rem;
+
+$icon-style-margin-top: 1rem;
+$icon-style-margin-left: 1.5rem;
+$icon-style-opacity: 1;
+$icon-style-fill: rgb(19, 187, 183);
+$icon-style-width: 32px;
+$icon-style-height: 32px;
+
+$due-date-margin: 2rem;
+$due-date-opacity: 1;
+$due-date-border-radius: 4px;
+$due-date-border-width: 0px;
+$due-date-border-color: rgb(102, 102, 102);
+$due-date-width: 147px;
+$due-date-height: 23px;
+
+$item-image-opacity: 1;
+$item-image-border-radius: 0px 0px 4px 4px;
+$item-image-width: 243px;
+$item-image-height: 146px;
+
+$no-of-modules-margin-left: 2rem;
+$no-of-modules-margin-top: 1.5rem;
+$no-of-modules-color: rgb(121, 202, 201);
+$no-of-modules-font-size: 14px;
+$no-of-modules-height: 24px;
+$no-of-modules-border-radius: 4px;
+
+$no-of-modules-hover-border-width: 1px;
+
+$consumer-protection-container-width: auto;
+$consumer-protection-container-opacity: 1;
+$consumer-protection-container-border-radius: 0px;
+$consumer-protection-container-border-width: 0px;
+$consumer-protection-container-border-color: rgb(231, 20, 20);
+$consumer-protection-container-padding: 0px;
+$consumer-protection-container-margin-left: 50px;
+$consumer-protection-container-margin-top: 0px;
+
+$consumer-protection-header-opacity: 1;
+$consumer-protection-header-line-height: 24px;
+$consumer-protection-header-color: rgb(102, 102, 102);
+$consumer-protection-header-font-size: 18px;
+$consumer-protection-header-width: 273px;
+$consumer-protection-header-height: 24px;
+$consumer-protection-header-margin-left: 2rem;
+
+$consumer-protection-item-margin-top: 80px;
+$consumer-protection-item-margin-left: 20px;
+$consumer-protection-item-margin-bottom: 20px;
+$consumer-protection-item-opacity: 1;
+$consumer-protection-item-bgcolor: rgb(255, 255, 255);
+$consumer-protection-item-border-radius: 6px;
+$consumer-protection-item-border-width: 0px;
+$consumer-protection-item-padding: 0px;
+$consumer-protection-item-width: 243px;
+$consumer-protection-item-height: 210px;
+
+$consumer-protection-text-item-top: -33px;
+$consumer-protection-text-item-left: 20px;
+$consumer-protection-text-item-margin-left: 2rem;
+$consumer-protection-text-item-opacity: 1;
+$consumer-protection-text-item-bgcolor: rgb(240, 63, 66);
+$consumer-protection-text-item-border-radius: 4px 4px 0px 0px;
+$consumer-protection-text-item-border-width: 0px;
+$consumer-protection-text-item-border-color: rgb(102, 102, 102);
+$consumer-protection-text-item-padding: 10px;
+$consumer-protection-text-item-width: 177px;
+$consumer-protection-text-item-height: 32px;
+$consumer-protection-text-item-color: rgb(255, 255, 255);
+
+$controls-margin: 0 auto;
+$controls-padding: 40px;
+
+$controls-button-margin-top: 30px;
+$controls-button-bg: rgb(170, 170, 170);
+$controls-button-border: 0;
+$controls-button-border-radius: 0.25em;
+$controls-button-color: rgb(238, 238, 238);
+$controls-button-padding: 0.5em 1em;
+
+$controls-button-hover: rgb(5, 5, 5);
+
+$nav-item-right-margin-left: auto;
+$nav-item-right-margin-right: 0;
+
+$logo-opacity: 1;
+$logo-border-radius: 0px;
+
+$sidenav-height: 100%;
+$sidenav-width: 0;
+$sidenav-top: 0;
+$sidenav-left: 0;
+$sidenav-padding-top: 60px;
+
+$sidenav-a-padding: 8px 8px 8px 32px;
+$sidenav-a-fontsize: 25px;
+$sidenav-a-color: #818181;
+$sidenav-a-hover-color: #f1f1f1;
+
+$sidenav-closebtn-top: 0;
+$sidenav-closebtn-right: 25px;
+$sidenav-closebtn-font-size: 36px;
+$sidenav-closebtn-margin-left: 50px;
+
+$sidenav-small-padding-top: 15px;
+$sidenav-small-a-font-size: 18px;
+
+$sidenav-small-main-margin-left: 0px;
+
+$topnav-width: 100%;
+$topnav-bgcolor: #333;
+
+$topnav-a-color: #f2f2f2;
+$topnav-a-padding: 14px 16px;
+$topnav-a-fontsize: 17px;
+
+$topnav-a-hover-color: rgb(0, 0, 0);
+
+$topnav-a-active-bgcolor: #4caf50;
+$topnav-a-active-color: rgb(256, 256, 256);
+
+$sidebar-left-bgcolor-color: rgb(0, 0, 0);
+$sidebar-left-bgcolor-padding: 15px;
+
+$right-nav-container-height: 100%;
+$right-nav-container-width: 0;
+$right-nav-container-top: 0;
+$right-nav-container-right: 0;
+$right-nav-container-padding-top: 60px;
+
+$right-nav-container-small-paddingtop: 15px;
+$right-nav-container-small-margin-right: 250px;
+
+$right-nav-container-small-a-fontsize: 18px;
+$right-nav-container-small-main-margin-left: 0px;
+
+$navbar-nav-padding-left: 0;
+$navbar-nav-margin-right: 0;
+
+$el-circle-top: -20px;
+$el-circle-left: 35px;
+
+$compliance-cal-label-color: rgb(255, 255, 255);
+$compliance-cal-label-opacity: 1;
+$compliance-cal-label-line-height: 34px;
+$compliance-cal-label-font-size: 14px;
+$compliance-cal-label-width: 264px;
+$compliance-cal-label-height: 34px;
+
+$footer-small-width: 100%;

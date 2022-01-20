@@ -1,0 +1,42 @@
+@import "variable";
+// Head, body, titles
+
+html,
+body {
+  height: $body-height;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body-bg-color;
+  min-height: $body-minheight;
+
+  font-size: $body-fontsize;
+  line-height: $body-line-height;
+  width: $body-width;
+  position: relative;
+  overflow-x: hidden;
+}
+
+p {
+  color: $paracolor;
+}
+
+h1 {
+  color: $h1-color;
+}
+
+a svg {
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
+}
+
+#ico {
+  display: none;
+}

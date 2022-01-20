@@ -1,0 +1,261 @@
+@import "variable";
+@import "mixins";
+
+// Navbar styles
+
+.navbar-style {
+  background-color: $nav-bg-color;
+}
+
+.nav-item-right {
+  margin-left: $nav-item-right-margin-left;
+  margin-right: $nav-item-right-margin-right;
+}
+
+.logo {
+  opacity: $logo-opacity;
+  mix-blend-mode: normal;
+  border-radius: $logo-border-radius;
+  object-fit: fill;
+  width: $logo-width;
+  height: $logo-height;
+}
+
+.sidenav {
+  height: $sidenav-height; /* 100% Full-height */
+  width: $sidenav-width; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: $sidenav-top;
+  left: $sidenav-left;
+  background-color: $left-bar-color; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: $sidenav-padding-top; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: $sidenav-a-padding;
+  text-decoration: none;
+  font-size: $sidenav-a-fontsize;
+  color: $sidenav-a-color;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: $sidenav-a-hover-color;
+}
+
+.sidenav .closebtn {
+  margin-bottom: 30px;
+  position: absolute;
+  top: $sidenav-closebtn-top;
+  right: $sidenav-closebtn-right;
+  font-size: $sidenav-closebtn-font-size;
+  margin-left: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  width: $topnav-width;
+  background-color: $topnav-bgcolor;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: $topnav-a-color;
+  text-align: center;
+  padding: $topnav-a-padding;
+  text-decoration: none;
+  font-size: $topnav-a-fontsize;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  // background-color: #000;
+  color: $topnav-a-hover-color;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: $topnav-a-active-bgcolor;
+  color: $topnav-a-active-color;
+}
+
+.sidebar-left-bgcolor {
+  background-color: $left-bar-color;
+  text-align: center;
+  color: $sidebar-left-bgcolor-color;
+  padding: $sidebar-left-bgcolor-padding;
+}
+.left-bar a {
+  color: $h1-color;
+  font-size: $link-font-size;
+  text-align: left;
+}
+
+.left-nav-items {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  width: 114px;
+  height: 15px;
+  transform: rotate(0deg) translate(500, 0);
+}
+.svg-left-nav {
+  opacity: 1;
+  mix-blend-mode: normal;
+  fill: rgb(255, 255, 255);
+  width: 24px;
+  height: 24px;
+}
+
+#rightNavContainer {
+  height: $right-nav-container-height; /* 100% Full-height */
+  width: $right-nav-container-width; /* change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: $right-nav-container-top;
+  right: $right-nav-container-right;
+  background-color: $right-nav-bg-color; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: $right-nav-container-padding-top; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the  */
+}
+
+.navbar-toggler-icon {
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 800px) {
+  #rightNavContainer {
+    padding-top: $right-nav-container-small-paddingtop;
+    margin-left: 0 !important;
+    //margin-right: $right-nav-container-small-margin-right;
+    // transform: rotate(0deg) translate(200, 0);
+  }
+  #rightNavContainer a {
+    font-size: $right-nav-container-small-a-fontsize;
+    display: block;
+  }
+  #main {
+    margin-left: $right-nav-container-small-main-margin-left;
+  }
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex !important;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: $navbar-nav-padding-left;
+    margin-right: $navbar-nav-margin-right;
+    list-style: none;
+    float: right;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border-color: transparent !important;
+}
+
+.right-cal {
+  position: relative;
+}
+
+.el-circle {
+  position: absolute;
+  top: $el-circle-top;
+  left: $el-circle-left;
+
+  opacity: 1;
+  mix-blend-mode: normal;
+  background-color: rgb(246, 36, 89);
+  background-image: none;
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  border-width: 0px;
+  border-color: rgb(102, 102, 102);
+  border-style: solid;
+  padding: 0px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(0deg) translate(0px, 25px);
+  border-radius: 50%;
+}
+
+.complianceCalendarLabel {
+  opacity: $compliance-cal-label-opacity;
+  mix-blend-mode: normal;
+  line-height: $compliance-cal-label-line-height;
+  font-variant: normal;
+  color: $compliance-cal-label-color;
+  font-size: $compliance-cal-label-font-size;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  width: $compliance-cal-label-width;
+  height: $compliance-cal-label-height;
+  transform: rotate(0deg) translate(0, 0);
+}
+
+.right-nav-side-div_blue {
+  margin-top: 20px;
+  border-color: rgb(125, 155, 245);
+  @include rightnavsidediv(rgb(125, 155, 245));
+}
+
+.right-nav-side-div_yellow {
+  @include rightnavsidediv(rgb(240, 187, 74));
+}
+
+.svg-dropdown {
+  opacity: 1;
+  mix-blend-mode: normal;
+  fill: rgb(124, 144, 163);
+  width: 44px;
+  height: 44px;
+  transform: rotate(0deg) translate(0px, 0px);
+}
+
+.svg-calendar {
+  opacity: 1;
+  mix-blend-mode: normal;
+  fill: rgb(54, 67, 77);
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 1.83333px);
+  width: 32px;
+  height: 32px;
+  transform: rotate(0deg) translate(0, 0);
+}
+
+@media screen and (max-width: 800px) {
+  .sidenav {
+    padding-top: $sidenav-small-padding-top;
+    display: none;
+  }
+  .sidenav a {
+    font-size: $sidenav-small-a-font-size;
+    display: block;
+  }
+  #main {
+    margin-left: $sidenav-small-main-margin-left;
+  }
+  .topnav {
+    width: 100%;
+  }
+}

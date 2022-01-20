@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7f8;
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+p {
+  color: Black;
+}
+
+h1 {
+  color: white;
+}
+
+a svg {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a svg:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#ico {
+  display: none;
+}
+/*# sourceMappingURL=typography.css.map */
